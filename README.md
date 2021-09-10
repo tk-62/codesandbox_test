@@ -1,2 +1,2 @@
-# codesandbox_test
+# codesandbox-test
 Created with CodeSandbox
