@@ -112,3 +112,14 @@
 // const[name, age] = myProfile;
 // const message4 = `私の名前は${name}です。年齢は${age}歳です。`;
 // console.log(message4);
+
+/**
+ * デフォルト値、引数など
+ */
+//変数の後にイコールで何か設定してあるときはデフォルト値
+const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
+sayHello("じゃけぇ");
+
+/**
+ * スプレッド構文 ...
+ */
